@@ -1,0 +1,53 @@
+body, h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edeef2;
+}
+.wrapper{
+    width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 5px 5px 0 rgba(26, 25, 25, 0.06);
+}
+.title{
+    text-align: center;
+}
+.title h1 {
+    color: #353f4b;
+    padding-top: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+.title h3{
+    color: #97abad;
+    font-family: 'Yesteryear', cursive;
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Yesteryear', cursive;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.card{
+    background-color: #939faf;
+    width: calc((100% / 3) -20px);
+    margin: 15px;
+    height: 120px;
+    display: inline-block;
+}
+.card:hover{
+    background-color: #1abc9c;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.card h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+.card i{
+    font-size: 20px;
+    margin: 5px 140px;
+    color: #fff;
+}

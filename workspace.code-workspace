@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\exam\\bootstrap-5.0.0-beta2-dist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Icode1"
+	}
+}
